@@ -24,7 +24,7 @@ def get_player_stats(player_name):
 
     # Typical shape: match["goals"] and match.get("assists") (field names may vary)
     goals = match.get("goals") or match.get("numberOfGoals")
-    assists = match.get("assists")  # if your plan/endpoint exposes assists
+    assists = match.get("assists") 
 
     print(f"Player: {match['player']['name']}")
     print(f"Goals (2022/23 season): {goals}")
