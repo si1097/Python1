@@ -1,7 +1,7 @@
 import requests
 
 #API configuration (variable declaration)
-api_key = '0fe3713543c9194daf86db72787f438a'
+api_key = 'API KEY'
 base_url = 'https://api.openweathermap.org/data/2.5/weather'
 
 
